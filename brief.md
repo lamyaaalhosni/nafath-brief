@@ -21,16 +21,19 @@ Emergency responders require mobile applications that function reliably during n
 Resource: Android Developers - Offline-first data layer - https://developer.android.com/topic/architecture/data-layer/offline-first
 
 ## Networking
+5G network slicing enables telecommunications operators to create multiple isolated virtual networks over shared physical infrastructure. A dedicated emergency slice allocates prioritized network resources, guaranteeing bandwidth, isolation, and ultra-reliable low-latency communication (URLLC). This ensures that emergency responders maintain uninterrupted critical voice and data transmission even during severe public network congestion or major emergency events.
 
-[Answer to be completed]
+Resource: 3GPP Specifications - TS 23.501 System Architecture for the 5G System - https://www.3gpp.org/dynareport/23501.htm
 
 ## Cybersecurity
+The incident response lifecycle consists of four main phases: Preparation, Detection and Analysis, Containment, Eradication and Recovery, and Post-Incident Activity. When an emergency service is targeted, security teams prepare defensive controls, detect anomalous behavior, contain threats to prevent disruption, eradicate malicious payloads, recover critical operational capabilities, and analyze lessons learned to strengthen future resilience.
 
-[Answer to be completed]
+Resource: NIST SP 800-61 Rev. 2 - Computer Security Incident Handling Guide - https://csrc.nist.gov/pubs/sp/800-61/r2
 
-## Data Architecture
+## Data
+A star schema organizes data around a central fact table surrounded by denormalized dimension tables, optimizing read performance and analytical query speed. In contrast, a snowflake schema normalizes dimensions into multiple related tables. For daily regional service usage reports, a star schema is more suitable because it simplifies query structure, reduces join overhead, and accelerates aggregation performance.
 
-[Answer to be completed]
+Resource: DAMA-DMBOK: Data Management Body of Knowledge - https://www.dama.org/content/body-knowledge
 
 ## Misconception
 
