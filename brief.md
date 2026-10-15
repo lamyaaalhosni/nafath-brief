@@ -37,8 +37,10 @@ Resource: DAMA-DMBOK: Data Management Body of Knowledge - https://www.dama.org/c
 
 ## Misconception
 
-[Analysis to be completed]
+A common misconception is that a 5G Network Slice is merely a software-level bandwidth limit or a simple VLAN priority tag. In reality, network slicing provides an end-to-end logical network with specific service characteristics across the relevant network domains, including the Radio Access Network (RAN), transport network, and 5G Core Network. Each slice has tailored resource allocation, quality-of-service requirements, and logical isolation, while some underlying network functions and physical resources may be shared.
+
+**Resource:** 3GPP TS 23.501 – System Architecture for the 5G System: https://www.3gpp.org/dynareport/23501.htm 
 
 ## Open Question
 
-[Question to be completed]
+How can a 5G network dynamically allocate radio resources between commercial users and emergency network slices during a major disaster, while ensuring low latency, high reliability, and uninterrupted communication for first responders?
